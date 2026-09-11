@@ -1,0 +1,20 @@
+# Market data is never committed. LOBSTER data may not be redistributed.
+data/
+*.csv
+*.csv.gz
+*.parquet
+*.h5
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
